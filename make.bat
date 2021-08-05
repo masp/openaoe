@@ -11,7 +11,7 @@ popd
 exit /b 0
 
 :make
-cmake -GNinja -DSDL2_PATH="C:\Program Files\SDL2-2.0.14" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
+cmake -GNinja -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
 ninja
 exit /b
 
